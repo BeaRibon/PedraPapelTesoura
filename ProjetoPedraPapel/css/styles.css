@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    background-color: #210d0d;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+#title{
+    font-family: "Honk", system-ui;
+    font-size: 4rem;
+}
+
+#btnchoose{
+    position: fixed;
+    top: 2%;
+    right: 90%;
+    width: 5.5rem;
+    height: 3rem;
+    border: 0;
+    background-color: #000000;
+    border-radius: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.siderobo{
+    
+    margin-top: 1rem;
+    margin-right: 10%;
+}
+
+
+.sidejogador{
+    margin-top: 1rem;
+    margin-right: 30%;
+}
+
+#player{
+    width: 15rem;
+    height: 24rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 3.5rem;
+    height: 2rem;
+    border: 0;
+    background-color: #000000;
+    border-radius: 10%;
+}
+
+
+#play{
+    position: fixed;
+    left: 45%;
+    bottom: 75%;
+    background-color: #5f4040;
+    border: 0;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 1rem;
+
+}
+
+#pontplayer{
+    position: fixed;
+    right: 95%;
+    bottom: 75%;
+}
+
+#pontrobo{
+    position: fixed;
+    left: 95%;
+    bottom: 75%;
+}
+
+#robo{
+    width: 15rem;
+    height: 24rem;
+}
+
+#msg{
+    position: fixed;
+    left: 92%;
+    padding-top: 2%;
+}
